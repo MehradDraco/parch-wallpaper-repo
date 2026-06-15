@@ -1,14 +1,11 @@
 # Maintainer: Sohrab Behdani <behdanisohrab@gmail.com>
 pkgname=parch-wallpapers
-<<<<<<< HEAD
 pkgver=1
-=======
 pkgver=1.5
->>>>>>> 23ea7b2 (included Parch anniversary images)
 pkgrel=0
 pkgdesc='Wallpapers for Parch Linux'
 arch=("any")
-url="https://github.com/parchlinux/artwork"
+url="https://github.com/parchlinux/arts"
 license=("BSD-3-Clause")
 source=("git+https://git.parchlinux.com/artwork/Arts")
 provides=("${pkgname}")
@@ -16,18 +13,13 @@ conflicts=("${pkgname}")
 md5sums=('SKIP')
 
 prepare() {
-    cd "$srcdir/artwork/Wallpaper"
+    cd "$srcdir/Wallpaper"
     bash mkgnome.sh
 }
 
 package() {
-<<<<<<< HEAD
-    cd "$srcdir/Arts/Wallpaper"
-    
-=======
-    cd "$srcdir/artwork/Wallpaper"
+    cd "$srcdir/Wallpaper"
 
->>>>>>> 23ea7b2 (included Parch anniversary images)
     # Create the base destination directory
     install -d "${pkgdir}/usr/share/wallpapers/"
 
