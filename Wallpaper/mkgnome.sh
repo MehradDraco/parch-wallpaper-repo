@@ -12,18 +12,21 @@ mapfile -t files < <(find . -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -ina
 
 declare -A pairs seen
 
+re_light='[-_ ]?light$'
+re_dark='[-_ ]?dark$'
+
 for f in "${files[@]}"; do
     base=$(basename "$f")
     dir=$(dirname "$f")
     stem="${base%.*}"
     lstem=$(echo "$stem" | tr '[:upper:]' '[:lower:]')
-    if [[ $lstem =~ [ _-]?light$ ]]; then
-        key_stem=$(echo "$stem" | sed -E 's/[ _-]?[Ll][Ii][Gg][Hh][Tt]$//')
+    if [[ $lstem =~ $re_light ]]; then
+        key_stem=$(echo "$stem" | sed -E 's/[-_ ]?[Ll][Ii][Gg][Hh][Tt]$//')
         key="$dir/$key_stem"
         pairs["$key,light"]="$f"
         seen["$key"]=1
-    elif [[ $lstem =~ [ _-]?dark$ ]]; then
-        key_stem=$(echo "$stem" | sed -E 's/[ _-]?[Dd][Aa][Rr][Kk]$//')
+    elif [[ $lstem =~ $re_dark ]]; then
+        key_stem=$(echo "$stem" | sed -E 's/[-_ ]?[Dd][Aa][Rr][Kk]$//')
         key="$dir/$key_stem"
         pairs["$key,dark"]="$f"
         seen["$key"]=1
