@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "last_update": "2026-06-20",
+  "repository": "https://github.com/MehradDraco/parch-wallpaper-repo",
+  "categories": [
+    {
+      "id": "sketchy",
+      "name": "Sketchy",
+      "icon": "✏️",
+      "description": "طرح‌های هنری و دست‌نقش با الهام از فرهنگ و طبیعت ایران"
+    },
+    {
+      "id": "parch-forth-anniversary",
+      "name": "Parch Forth Generation",
+      "icon": "🎂",
+      "description": "مجموعه والپیپرهای ویژه‌ی چهارمین سالگرد توزیع پارچ لینوکس"
+    }
+  ],
+  "wallpapers": [
+    {
+      "id": "sketchy-01",
+      "name": "سی و سه پل (تاریک)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sckachi_33Pol_Dark.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sckachi_33Pol_Dark.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["dark", "sketch", "night"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-02",
+      "name": "سی و سه پل (روشن)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sckachi_33Pol_Light.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sckachi_33Pol_Light.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["light", "sketch", "day"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-03",
+      "name": "شب‌های پاییزی (آبرنگ)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sckachi_33Pol_Watercolor.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sckachi_33Pol_Watercolor.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["watercolor", "sketch", "art"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-04",
+      "name": "حافظ (اثر هنری)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sckachi_Hafez_Artwork.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sckachi_Hafez_Artwork.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["hafez", "art", "sketch"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-05",
+      "name": "حافظ (تاریک)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sketchy_Hafez_Dark.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sketchy_Hafez_Dark.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["hafez", "dark", "sketch"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-06",
+      "name": "حافظ (روشن)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sketchy_Hafez_Light.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sketchy_Hafez_Light.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["hafez", "light", "sketch"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-07",
+      "name": "حافظ (آبرنگ)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sketchy_Hafez_Watercolor.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sketchy_Hafez_Watercolor.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["hafez", "watercolor", "sketch"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-08",
+      "name": "تخت جمشید (تاریک)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sketchy_TakhteJamshid_Dark.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sketchy_TakhteJamshid_Dark.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["takhtejamshid", "dark", "history"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-09",
+      "name": "تخت جمشید (روشن)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sketchy_TakhteJamshid_Light.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sketchy_TakhteJamshid_Light.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["takhtejamshid", "light", "history"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "sketchy-10",
+      "name": "تخت جمشید (روشن مشکی)",
+      "category": "sketchy",
+      "file": "Wallpaper/Sketchy-background/Sketchy_TakhteJamshid_Light_Black.png",
+      "thumbnail": "Wallpaper/Sketchy-background/Sketchy_TakhteJamshid_Light_Black.png",
+      "resolution": "1920x1080",
+      "author": "MehradDraco",
+      "tags": ["takhtejamshid", "light", "black"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "parch-anniversary-01",
+      "name": "چهارمین سالگرد پارچ (رنگارنگ)",
+      "category": "parch-forth-anniversary",
+      "file": "Wallpaper/Parch-forth-anniversary/Parch-forth-anniversary-1.png",
+      "thumbnail": "Wallpaper/Parch-forth-anniversary/Parch-forth-anniversary-1.png",
+      "resolution": "1920x1080",
+      "author": "Parch Team",
+      "tags": ["anniversary", "colorful", "celebration"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "parch-anniversary-02",
+      "name": "چهارمین سالگرد پارچ (تاریک)",
+      "category": "parch-forth-anniversary",
+      "file": "Wallpaper/Parch-forth-anniversary/Parch-forth-anniversary-4-dark.png",
+      "thumbnail": "Wallpaper/Parch-forth-anniversary/Parch-forth-anniversary-4-dark.png",
+      "resolution": "1920x1080",
+      "author": "Parch Team",
+      "tags": ["anniversary", "dark", "elegant"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    },
+    {
+      "id": "parch-anniversary-03",
+      "name": "چهارمین سالگرد پارچ (روشن)",
+      "category": "parch-forth-anniversary",
+      "file": "Wallpaper/Parch-forth-anniversary/Parch-forth-anniversary-4-light.png",
+      "thumbnail": "Wallpaper/Parch-forth-anniversary/Parch-forth-anniversary-4-light.png",
+      "resolution": "1920x1080",
+      "author": "Parch Team",
+      "tags": ["anniversary", "light", "bright"],
+      "downloads": 0,
+      "date_added": "2026-06-20"
+    }
+  ]
+}
